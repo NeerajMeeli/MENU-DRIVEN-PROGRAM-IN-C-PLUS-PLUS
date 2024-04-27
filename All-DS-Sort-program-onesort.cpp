@@ -32,7 +32,7 @@ using namespace std;
     void print()
     {
         
-         cout<<"Ascending order array are:";
+         cout<<"Ascending order array element are:";
         for(int i=0;i<n;i++)
         {
             cout<<arr[i]<<endl;
@@ -44,14 +44,35 @@ using namespace std;
 
     void InsertionSort()
     {
-        int arr[20],n;
+        // int arr[20],n;
+        // cout<<"Enter the size of an array:";
+        // cin>>n;
+        // cout<<"Enter the value of an array:";
+        // for (int i=0;i<n;i++)
+        // {
+        //     cin>>arr[i];
+        // }
+        // for(int i=1;i<n;i++)
+        // {
+        //     int key=arr[i];
+        //     int j=i-1;
+        //     while(key<arr[j]&&j>=0)
+        //     {
+        //         arr[j+1]=arr[j];
+        //          j--;
+        //     }
+        //     arr[j+1]=key;
+
+        // }
+        int n,arr[20];
         cout<<"Enter the size of an array:";
         cin>>n;
         cout<<"Enter the value of an array:";
-        for (int i=0;i<n;i++)
+        for(int i=0;i<n;i++)
         {
             cin>>arr[i];
         }
+
         for(int i=1;i<n;i++)
         {
             int key=arr[i];
@@ -59,10 +80,9 @@ using namespace std;
             while(key<arr[j]&&j>=0)
             {
                 arr[j+1]=arr[j];
-                 j--;
+                j--;
             }
             arr[j+1]=key;
-
         }
 
         cout<<"Print the Sorted array is :";
