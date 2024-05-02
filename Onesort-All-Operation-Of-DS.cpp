@@ -343,9 +343,6 @@ using namespace std;
             cin>>arr[i];
         }
 
-        int x;
-        cout<<"Enter the value at the beginning :";
-        cin>>x;
         for(int i=0;i<n-1;i++)
         {
             arr[i]=arr[i+1];
@@ -423,7 +420,7 @@ using namespace std;
 
             }
         }
-        while(choise!=15);
+        while(choise!=13);
 
        
         return 0;
