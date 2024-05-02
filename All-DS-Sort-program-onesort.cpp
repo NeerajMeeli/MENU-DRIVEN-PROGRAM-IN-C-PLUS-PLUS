@@ -1,12 +1,13 @@
 //Bubble sort impliment using array
 #include<iostream>
 using namespace std;
-    int arr[20],n;
 
     void Bubblesort()
     {
+         int n;
         cout<<"Enter the size of an array:";
         cin>>n;
+        int arr[n];
         cout<<"Enter the value of array in jumbled order :"<<endl;
         for(int i=0;i<n;i++)
         {
@@ -26,19 +27,13 @@ using namespace std;
                 }
             }
         }
-        
-    }
-
-    void print()
-    {
-        
-         cout<<"Ascending order array element are:"<<endl;
+        cout<<"Ascending order array element are:"<<endl;
         for(int i=0;i<n;i++)
         {
             cout<<arr[i]<<endl;
         }
-    }
-   
+        
+    } 
 
     //Insertion sort using array 
 
@@ -108,7 +103,7 @@ using namespace std;
         cin>>choise;
         switch(choise)
             {
-                case 1:Bubblesort(),print();
+                case 1:Bubblesort();
                 break;
                 case 2: InsertionSort();
                 break;
