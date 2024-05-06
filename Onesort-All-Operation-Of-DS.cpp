@@ -385,13 +385,20 @@ using namespace std;
     {
         int choise;
         do{
-        cout<<"\n___________________________MENU______________________________";
-        cout<<"\n1.Trevarsal operation of data sturcture\n2.Insertion at the beginning\n";
-        cout<<"\n3.Insertion at the end\n4.Insertion at any given possition\n5.Sorting Ascending order\n";
-        cout<<"\n6.Sorting Descending order\n7.Linear Search Using array\n8.Iterative search method\n";
-        cout<<"\n9.Recursive search method\n10.Deletion at the beginning\n11.Deletion at the end"<<endl;
-        cout<<"\n_________________________________________________________________"<<endl;
-        cout<<"Enter Your choise  :  ";
+        cout<<"\n___________________________MENU___________________________";
+        cout<<"\n1.Trevarsal operation of data sturcture";
+        cout<<"\n2.Insertion at the beginning";
+        cout<<"\n3.Insertion at the end";
+        cout<<"\n4.Insertion at any given possition";
+        cout<<"\n5.Sorting Ascending order";
+        cout<<"\n6.Sorting Descending order";
+        cout<<"\n7.Linear Search Using array";
+        cout<<"\n8.Iterative search method";
+        cout<<"\n9.Recursive search method";
+        cout<<"\n10.Deletion at the beginning";
+        cout<<"\n11.Deletion at the end"<<endl;
+        cout<<"\n_________________________________________________________"<<endl;
+        cout<<"\nPlease Enter Your choise  :  ";
         cin>>choise;
         switch(choise)
             {
